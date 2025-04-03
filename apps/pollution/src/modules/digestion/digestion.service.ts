@@ -29,7 +29,7 @@ export class DigestionService {
 
         if (i % 100 === 0) {
           this.logger.log(
-            `Upload progress: ${((i / rawData.length) * 100).toFixed(2)}%`,
+            `Upload progress: ${((i / rawData.length) * 100).toFixed(2)} %`,
           );
         }
       }
@@ -57,7 +57,7 @@ export class DigestionService {
 
         if (i % 100 === 0) {
           this.logger.log(
-            `Upload progress: ${((i / rows.length) * 100).toFixed(2)}%`,
+            `Upload progress: ${((i / rows.length) * 100).toFixed(2)} %`,
           );
         }
       }
